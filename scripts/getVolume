@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+echo '@->-GET-VOLUME-<-@' | nc mark 6620 ; echo ""
+# End

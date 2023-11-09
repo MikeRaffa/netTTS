@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+if [ $# -ne 1 ]; then
+    echo "USAGE"
+    exit 101
+fi
+
+echo "Setting speech rate to ${1}"
+echo "@->-SET-RATE ${1}-<-@" | nc mark 6620 ; echo ""
+
+# End

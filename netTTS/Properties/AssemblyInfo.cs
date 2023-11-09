@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("netTTS")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A networked Text To Speech service using .net, and only .net, to produce .wav output from text input.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ddavies.net")]
 [assembly: AssemblyProduct("netTTS")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright ©  2023, Derek L Davies <ddavies@ddavies.net>")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
