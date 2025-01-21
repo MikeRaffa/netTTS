@@ -8,6 +8,8 @@ using System.Text;
 using System.Speech.Synthesis;
 using System.Diagnostics;
 
+// RAFFA TEST 2 (this is the command line one)
+
 namespace netTTS {
 
 internal class Program {
